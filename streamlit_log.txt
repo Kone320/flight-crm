@@ -1,0 +1,1242 @@
+2026-04-21 08:02:18.585 Starting server...
+2026-04-21 08:02:18.585 Serving static content from /opt/anaconda3/lib/python3.12/site-packages/streamlit/static
+2026-04-21 08:02:18.587 Server started on port 8501
+2026-04-21 08:02:18.587 Runtime state: RuntimeState.INITIAL -> RuntimeState.NO_SESSIONS_CONNECTED
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.188.152.206:8501
+
+2026-04-21 08:02:18.815 Setting up signal handler
+2026-04-21 08:02:19.144 No singleton. Registering one.
+2026-04-21 08:02:19.255 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages
+2026-04-21 08:02:19.260 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py
+2026-04-21 08:02:19.267 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py
+2026-04-21 08:02:19.268 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py
+2026-04-21 08:02:19.268 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:02:19.269 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py
+2026-04-21 08:02:19.269 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py
+2026-04-21 08:02:19.270 AppSession initialized (id=e977ad98-bea1-41d1-b2c1-fff789d5581e)
+2026-04-21 08:02:19.270 Created new session for client 4418773520. Session ID: e977ad98-bea1-41d1-b2c1-fff789d5581e
+2026-04-21 08:02:19.270 Runtime state: RuntimeState.NO_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2026-04-21 08:02:19.271 Received the following back message:
+rerun_script {
+  widget_states {
+  }
+}
+
+2026-04-21 08:02:19.273 Beginning script thread
+2026-04-21 08:02:19.273 Running script RerunData(widget_states=)
+2026-04-21 08:02:19.273 Disconnecting files for session with ID e977ad98-bea1-41d1-b2c1-fff789d5581e
+2026-04-21 08:02:19.273 Sessions still active: dict_keys([])
+2026-04-21 08:02:19.273 Files: 0; Sessions with files: 0
+2026-04-21 08:02:19.311 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776750981.062765, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.324 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776750981.062765, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.328 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/__pycache__/config.cpython-312.pyc.4419128368.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776750981.062765, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.328 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776750981.062765, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.328 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/__pycache__/config.cpython-312.pyc.4419128368.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776750981.062765, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.328 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/__pycache__/config.cpython-312.pyc.4419128368; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/__pycache__/config.cpython-312.pyc
+2026-04-21 08:02:19.328 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/__pycache__/config.cpython-312.pyc.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776750981.062765, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.328 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776750981.062765, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.422 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>)}
+2026-04-21 08:02:19.423 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>)}
+2026-04-21 08:02:19.423 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/__init__.cpython-312.pyc.4418493664.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>)}
+2026-04-21 08:02:19.424 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>)}
+2026-04-21 08:02:19.424 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/__init__.cpython-312.pyc.4418493664.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>)}
+2026-04-21 08:02:19.424 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/__init__.cpython-312.pyc.4418493664; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/__init__.cpython-312.pyc
+2026-04-21 08:02:19.424 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/__init__.cpython-312.pyc.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>)}
+2026-04-21 08:02:19.424 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>)}
+2026-04-21 08:02:19.424 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/dashboard.cpython-312.pyc.4426922528.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>)}
+2026-04-21 08:02:19.424 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>)}
+2026-04-21 08:02:19.424 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/dashboard.cpython-312.pyc.4426922528.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>)}
+2026-04-21 08:02:19.424 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/dashboard.cpython-312.pyc.4426922528; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/dashboard.cpython-312.pyc
+2026-04-21 08:02:19.424 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/dashboard.cpython-312.pyc.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>)}
+2026-04-21 08:02:19.424 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>)}
+2026-04-21 08:02:19.424 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776750981.062765, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.536 File/dir MD5 did not change: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages
+2026-04-21 08:02:19.536 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/__init__.cpython-312.pyc.4418493664.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.537 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.537 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/__init__.cpython-312.pyc.4418493664.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.537 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/__init__.cpython-312.pyc.4418493664; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/__init__.cpython-312.pyc
+2026-04-21 08:02:19.537 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/__init__.cpython-312.pyc.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.537 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.537 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/dashboard.cpython-312.pyc.4426922528.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.537 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.537 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/dashboard.cpython-312.pyc.4426922528.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.537 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/dashboard.cpython-312.pyc.4426922528; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/dashboard.cpython-312.pyc
+2026-04-21 08:02:19.537 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/dashboard.cpython-312.pyc.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:19.537 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:20.196 Creating new DataCache (key=8207e45b47cd99fc1b2ddeed8f2ef057, persist=None, max_entries=None, ttl=3600)
+2026-04-21 08:02:20.197 Cache key: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:02:20.197 Memory cache MISS: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:02:20.197 Memory cache MISS: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:02:20.199 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:20.199 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:20.199 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/__init__.cpython-312.pyc.4974839680.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:20.199 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:20.199 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/__init__.cpython-312.pyc.4974839680.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:20.199 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/__init__.cpython-312.pyc.4974839680; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/__init__.cpython-312.pyc
+2026-04-21 08:02:20.199 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/__init__.cpython-312.pyc.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:20.200 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:20.200 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/data_utils.cpython-312.pyc.4974839824.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:20.200 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:20.200 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/data_utils.cpython-312.pyc.4974839824.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:20.200 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/data_utils.cpython-312.pyc.4974839824; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/data_utils.cpython-312.pyc
+2026-04-21 08:02:20.200 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/data_utils.cpython-312.pyc.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:02:20.200 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>)}
+2026-04-21 08:03:21.168 Memory cache MISS: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:03:27.622 Removing orphaned files...
+2026-04-21 08:03:27.700 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py
+2026-04-21 08:03:27.700 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py
+2026-04-21 08:03:27.704 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py
+2026-04-21 08:03:27.705 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py
+2026-04-21 08:03:27.705 Caching message (hash=014372d1a0547ef00cd29f625d1f0562)
+2026-04-21 08:03:27.706 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2026-04-21 08:04:22.866 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+      int_value: 1
+    }
+    widgets {
+      id: "$$WIDGET_ID-df0b627409052b1280b98c50be9ea192-None"
+      int_array_value {
+        data: 0
+        data: 1
+        data: 2
+      }
+    }
+    widgets {
+      id: "$$WIDGET_ID-70cf55e37ca4b3b532c58ef87249569e-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-f055c1004699ffae5bd0ed812561f936-None"
+      int_value: 0
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+}
+
+2026-04-21 08:04:22.870 Beginning script thread
+2026-04-21 08:04:22.871 Running script RerunData(widget_states=widgets {
+  id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+  int_value: 1
+}
+widgets {
+  id: "$$WIDGET_ID-df0b627409052b1280b98c50be9ea192-None"
+  int_array_value {
+    data: 0
+    data: 1
+    data: 2
+  }
+}
+widgets {
+  id: "$$WIDGET_ID-70cf55e37ca4b3b532c58ef87249569e-None"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-f055c1004699ffae5bd0ed812561f936-None"
+  int_value: 0
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815')
+2026-04-21 08:04:22.871 Disconnecting files for session with ID e977ad98-bea1-41d1-b2c1-fff789d5581e
+2026-04-21 08:04:22.871 Sessions still active: dict_keys([])
+2026-04-21 08:04:22.871 Files: 0; Sessions with files: 0
+2026-04-21 08:04:22.878 Removing orphaned files...
+2026-04-21 08:04:22.928 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2026-04-21 08:04:35.101 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+      int_value: 2
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+}
+
+2026-04-21 08:04:35.102 Beginning script thread
+2026-04-21 08:04:35.102 Running script RerunData(widget_states=widgets {
+  id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+  int_value: 2
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815')
+2026-04-21 08:04:35.102 Disconnecting files for session with ID e977ad98-bea1-41d1-b2c1-fff789d5581e
+2026-04-21 08:04:35.102 Sessions still active: dict_keys([])
+2026-04-21 08:04:35.102 Files: 0; Sessions with files: 0
+2026-04-21 08:04:35.122 Creating new ResourceCache (key=1c311de23800179991cdda3a3f4e30e6)
+2026-04-21 08:04:35.122 Cache key: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:04:35.123 Cache key: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:04:35.123 Memory cache HIT: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:04:35.923 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/model_utils.cpython-312.pyc.13601463088.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715803.0080523, on_changed=<blinker.base.Signal object at 0x163aef1a0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py': WatchedPath(md5='e994c18d04d9b6d0c0f441f4bcc5caaa', modification_time=1776750821.1563573, on_changed=<blinker.base.Signal object at 0x163aeedb0>)}
+2026-04-21 08:04:35.923 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715803.0080523, on_changed=<blinker.base.Signal object at 0x163aef1a0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py': WatchedPath(md5='e994c18d04d9b6d0c0f441f4bcc5caaa', modification_time=1776750821.1563573, on_changed=<blinker.base.Signal object at 0x163aeedb0>)}
+2026-04-21 08:04:35.923 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/model_utils.cpython-312.pyc.13601463088.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715803.0080523, on_changed=<blinker.base.Signal object at 0x163aef1a0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py': WatchedPath(md5='e994c18d04d9b6d0c0f441f4bcc5caaa', modification_time=1776750821.1563573, on_changed=<blinker.base.Signal object at 0x163aeedb0>)}
+2026-04-21 08:04:35.923 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/model_utils.cpython-312.pyc.13601463088; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/model_utils.cpython-312.pyc
+2026-04-21 08:04:35.923 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/model_utils.cpython-312.pyc.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715803.0080523, on_changed=<blinker.base.Signal object at 0x163aef1a0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py': WatchedPath(md5='e994c18d04d9b6d0c0f441f4bcc5caaa', modification_time=1776750821.1563573, on_changed=<blinker.base.Signal object at 0x163aeedb0>)}
+2026-04-21 08:04:35.923 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715803.0080523, on_changed=<blinker.base.Signal object at 0x163aef1a0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py': WatchedPath(md5='e994c18d04d9b6d0c0f441f4bcc5caaa', modification_time=1776750821.1563573, on_changed=<blinker.base.Signal object at 0x163aeedb0>)}
+2026-04-21 08:04:35.923 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/crm_utils.cpython-312.pyc.13601464960.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715803.0080523, on_changed=<blinker.base.Signal object at 0x163aef1a0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py': WatchedPath(md5='e994c18d04d9b6d0c0f441f4bcc5caaa', modification_time=1776750821.1563573, on_changed=<blinker.base.Signal object at 0x163aeedb0>)}
+2026-04-21 08:04:35.923 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715803.0080523, on_changed=<blinker.base.Signal object at 0x163aef1a0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py': WatchedPath(md5='e994c18d04d9b6d0c0f441f4bcc5caaa', modification_time=1776750821.1563573, on_changed=<blinker.base.Signal object at 0x163aeedb0>)}
+2026-04-21 08:04:35.923 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/crm_utils.cpython-312.pyc.13601464960.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715803.0080523, on_changed=<blinker.base.Signal object at 0x163aef1a0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py': WatchedPath(md5='e994c18d04d9b6d0c0f441f4bcc5caaa', modification_time=1776750821.1563573, on_changed=<blinker.base.Signal object at 0x163aeedb0>)}
+2026-04-21 08:04:35.923 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/crm_utils.cpython-312.pyc.13601464960; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/crm_utils.cpython-312.pyc
+2026-04-21 08:04:35.923 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/crm_utils.cpython-312.pyc.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715803.0080523, on_changed=<blinker.base.Signal object at 0x163aef1a0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py': WatchedPath(md5='e994c18d04d9b6d0c0f441f4bcc5caaa', modification_time=1776750821.1563573, on_changed=<blinker.base.Signal object at 0x163aeedb0>)}
+2026-04-21 08:04:35.923 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715803.0080523, on_changed=<blinker.base.Signal object at 0x163aef1a0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py': WatchedPath(md5='e994c18d04d9b6d0c0f441f4bcc5caaa', modification_time=1776750821.1563573, on_changed=<blinker.base.Signal object at 0x163aeedb0>)}
+2026-04-21 08:04:35.923 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/prediction.cpython-312.pyc.13601462080.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715886.7435596, on_changed=<blinker.base.Signal object at 0x163aeff80>)}
+2026-04-21 08:04:35.991 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715886.7435596, on_changed=<blinker.base.Signal object at 0x163aeff80>)}
+2026-04-21 08:04:35.991 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/prediction.cpython-312.pyc.13601462080.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715886.7435596, on_changed=<blinker.base.Signal object at 0x163aeff80>)}
+2026-04-21 08:04:35.992 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/prediction.cpython-312.pyc.13601462080; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/prediction.cpython-312.pyc
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/prediction.cpython-312.pyc.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715886.7435596, on_changed=<blinker.base.Signal object at 0x163aeff80>)}
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715886.7435596, on_changed=<blinker.base.Signal object at 0x163aeff80>)}
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/prediction.cpython-312.pyc.13601462080.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/prediction.cpython-312.pyc.13601462080.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:04:35.992 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/prediction.cpython-312.pyc.13601462080; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/prediction.cpython-312.pyc
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/prediction.cpython-312.pyc.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/model_utils.cpython-312.pyc.13601463088.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/model_utils.cpython-312.pyc.13601463088.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:04:35.992 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/model_utils.cpython-312.pyc.13601463088; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/model_utils.cpython-312.pyc
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/model_utils.cpython-312.pyc.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/crm_utils.cpython-312.pyc.13601464960.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/crm_utils.cpython-312.pyc.13601464960.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:04:35.992 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/crm_utils.cpython-312.pyc.13601464960; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/crm_utils.cpython-312.pyc
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/crm_utils.cpython-312.pyc.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:04:35.992 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:04:36.824 Removing orphaned files...
+2026-04-21 08:04:36.902 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/model_utils.py
+2026-04-21 08:04:36.902 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/crm_utils.py
+2026-04-21 08:04:36.902 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2026-04-21 08:04:36.903 Removing expired entry [session=4418774720, hash=014372d1a0547ef00cd29f625d1f0562, age=3]
+2026-04-21 08:04:39.118 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+      int_value: 1
+    }
+    widgets {
+      id: "$$WIDGET_ID-f6eec4b05be36d48b99c18292a42aca1-ap_dep"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-7a591c5c3e50080065c02315d9317314-pays_dep"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-7011e2c4e3d29b60030533ff5f264c74-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-3d7e4d59d1694460592fc7f430818b1e-ap_arr"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-cac2693fe59905990f398d99fe68a354-pays_arr"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-1dbb74ba184b54a467233e855079bbce-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-dd11813832766ac812c260770325d9de-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-bcc46225070c67273a06e6822b400a6a-None"
+      double_array_value {
+        data: 10.0
+      }
+    }
+    widgets {
+      id: "$$WIDGET_ID-db300baba2dc993e7907fac31de5fcc9-None"
+      int_value: 1200
+    }
+    widgets {
+      id: "$$WIDGET_ID-1cc0963cb32e941622c9c8593fc01670-None"
+      int_value: 150
+    }
+    widgets {
+      id: "$$WIDGET_ID-fc1ea7e0f6abe0548dc91007b25dfbf2-None"
+      int_value: 20
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+}
+
+2026-04-21 08:04:39.119 Beginning script thread
+2026-04-21 08:04:39.119 Running script RerunData(widget_states=widgets {
+  id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+  int_value: 1
+}
+widgets {
+  id: "$$WIDGET_ID-f6eec4b05be36d48b99c18292a42aca1-ap_dep"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-7a591c5c3e50080065c02315d9317314-pays_dep"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-7011e2c4e3d29b60030533ff5f264c74-None"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-3d7e4d59d1694460592fc7f430818b1e-ap_arr"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-cac2693fe59905990f398d99fe68a354-pays_arr"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-1dbb74ba184b54a467233e855079bbce-None"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-dd11813832766ac812c260770325d9de-None"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-bcc46225070c67273a06e6822b400a6a-None"
+  double_array_value {
+    data: 10.0
+  }
+}
+widgets {
+  id: "$$WIDGET_ID-db300baba2dc993e7907fac31de5fcc9-None"
+  int_value: 1200
+}
+widgets {
+  id: "$$WIDGET_ID-1cc0963cb32e941622c9c8593fc01670-None"
+  int_value: 150
+}
+widgets {
+  id: "$$WIDGET_ID-fc1ea7e0f6abe0548dc91007b25dfbf2-None"
+  int_value: 20
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815')
+2026-04-21 08:04:39.119 Disconnecting files for session with ID e977ad98-bea1-41d1-b2c1-fff789d5581e
+2026-04-21 08:04:39.120 Sessions still active: dict_keys([])
+2026-04-21 08:04:39.120 Files: 0; Sessions with files: 0
+2026-04-21 08:04:39.125 Removing orphaned files...
+2026-04-21 08:04:39.189 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2026-04-21 08:06:59.559 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/tmpx2tq4yh1.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:06:59.560 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:06:59.560 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/tmpx2tq4yh1.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:06:59.560 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/tmpx2tq4yh1; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py
+2026-04-21 08:06:59.560 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:06:59.560 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:06:59.561 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/tmpx2tq4yh1.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715803.0080523, on_changed=<blinker.base.Signal object at 0x163aef1a0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py': WatchedPath(md5='e994c18d04d9b6d0c0f441f4bcc5caaa', modification_time=1776750821.1563573, on_changed=<blinker.base.Signal object at 0x163aeedb0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/model_utils.py': WatchedPath(md5='9b2f9a1b107850011b977663212a6bd0', modification_time=1776716326.596151, on_changed=<blinker.base.Signal object at 0x177f47c50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/crm_utils.py': WatchedPath(md5='98b6e4ca16ae91029e55d4361e7edd1d', modification_time=1776716354.6761806, on_changed=<blinker.base.Signal object at 0x177f47cb0>)}
+2026-04-21 08:06:59.561 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715803.0080523, on_changed=<blinker.base.Signal object at 0x163aef1a0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py': WatchedPath(md5='e994c18d04d9b6d0c0f441f4bcc5caaa', modification_time=1776750821.1563573, on_changed=<blinker.base.Signal object at 0x163aeedb0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/model_utils.py': WatchedPath(md5='9b2f9a1b107850011b977663212a6bd0', modification_time=1776716326.596151, on_changed=<blinker.base.Signal object at 0x177f47c50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/crm_utils.py': WatchedPath(md5='98b6e4ca16ae91029e55d4361e7edd1d', modification_time=1776716354.6761806, on_changed=<blinker.base.Signal object at 0x177f47cb0>)}
+2026-04-21 08:06:59.561 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/tmpx2tq4yh1.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715803.0080523, on_changed=<blinker.base.Signal object at 0x163aef1a0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py': WatchedPath(md5='e994c18d04d9b6d0c0f441f4bcc5caaa', modification_time=1776750821.1563573, on_changed=<blinker.base.Signal object at 0x163aeedb0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/model_utils.py': WatchedPath(md5='9b2f9a1b107850011b977663212a6bd0', modification_time=1776716326.596151, on_changed=<blinker.base.Signal object at 0x177f47c50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/crm_utils.py': WatchedPath(md5='98b6e4ca16ae91029e55d4361e7edd1d', modification_time=1776716354.6761806, on_changed=<blinker.base.Signal object at 0x177f47cb0>)}
+2026-04-21 08:06:59.561 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/tmpx2tq4yh1; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py
+2026-04-21 08:06:59.562 File/dir MD5 changed: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py
+2026-04-21 08:06:59.562 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715803.0080523, on_changed=<blinker.base.Signal object at 0x163aef1a0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py': WatchedPath(md5='8801b479a296956c22225744bc386e7b', modification_time=1776751619.5344849, on_changed=<blinker.base.Signal object at 0x163aeedb0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/model_utils.py': WatchedPath(md5='9b2f9a1b107850011b977663212a6bd0', modification_time=1776716326.596151, on_changed=<blinker.base.Signal object at 0x177f47c50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/crm_utils.py': WatchedPath(md5='98b6e4ca16ae91029e55d4361e7edd1d', modification_time=1776716354.6761806, on_changed=<blinker.base.Signal object at 0x177f47cb0>)}
+2026-04-21 08:06:59.562 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:06:59.562 File/dir timestamp did not change: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py
+2026-04-21 08:06:59.563 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715803.0080523, on_changed=<blinker.base.Signal object at 0x163aef1a0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py': WatchedPath(md5='8801b479a296956c22225744bc386e7b', modification_time=1776751619.5344849, on_changed=<blinker.base.Signal object at 0x163aeedb0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/model_utils.py': WatchedPath(md5='9b2f9a1b107850011b977663212a6bd0', modification_time=1776716326.596151, on_changed=<blinker.base.Signal object at 0x177f47c50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/crm_utils.py': WatchedPath(md5='98b6e4ca16ae91029e55d4361e7edd1d', modification_time=1776716354.6761806, on_changed=<blinker.base.Signal object at 0x177f47cb0>)}
+2026-04-21 08:06:59.563 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:07:37.650 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/tmp8kuaecr7.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:07:37.650 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:07:37.650 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/tmp8kuaecr7.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:07:37.650 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/tmp8kuaecr7; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/test_load.py
+2026-04-21 08:07:37.650 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/test_load.py.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:07:37.651 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:07:37.651 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/test_load.py.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:10:05.838 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmp4nyrzsv9.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751339.3627198, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:10:05.944 File/dir MD5 did not change: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages
+2026-04-21 08:10:05.944 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmp4nyrzsv9.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751805.8198125, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:10:05.944 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmp4nyrzsv9; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:10:05.944 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751805.8198125, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:10:05.944 File/dir timestamp did not change: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages
+2026-04-21 08:10:05.944 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmp4nyrzsv9.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715886.7435596, on_changed=<blinker.base.Signal object at 0x163aeff80>)}
+2026-04-21 08:10:05.945 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715886.7435596, on_changed=<blinker.base.Signal object at 0x163aeff80>)}
+2026-04-21 08:10:05.945 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmp4nyrzsv9.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='81cbe20c1e1a2e0b35f4dc400fba3cbc', modification_time=1776750871.9944506, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715886.7435596, on_changed=<blinker.base.Signal object at 0x163aeff80>)}
+2026-04-21 08:10:05.945 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmp4nyrzsv9; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:10:05.945 File/dir MD5 changed: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:10:05.945 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='1ac12e4c5560dff5d32a98ef35d9d7c8', modification_time=1776751805.8140585, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715886.7435596, on_changed=<blinker.base.Signal object at 0x163aeff80>)}
+2026-04-21 08:10:05.945 File/dir timestamp did not change: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:10:05.946 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751805.8198125, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x107660260>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x163aec080>)}
+2026-04-21 08:10:05.946 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x107660650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x1076605f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='1ac12e4c5560dff5d32a98ef35d9d7c8', modification_time=1776751805.8140585, on_changed=<blinker.base.Signal object at 0x1076607d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x107660860>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x1076608f0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715886.7435596, on_changed=<blinker.base.Signal object at 0x163aeff80>)}
+2026-04-21 08:10:05.946 File/dir timestamp did not change: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages
+2026-04-21 08:10:13.145 Runtime state: RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED -> RuntimeState.NO_SESSIONS_CONNECTED
+2026-04-21 08:10:13.325 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py
+2026-04-21 08:10:13.330 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py
+2026-04-21 08:10:13.331 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py
+2026-04-21 08:10:13.331 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:10:13.331 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py
+2026-04-21 08:10:13.332 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py
+2026-04-21 08:10:13.332 AppSession initialized (id=dcdd2e02-562a-472d-b9dc-98f2ff8beba3)
+2026-04-21 08:10:13.332 Created new session for client 4419093472. Session ID: dcdd2e02-562a-472d-b9dc-98f2ff8beba3
+2026-04-21 08:10:13.332 Runtime state: RuntimeState.NO_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2026-04-21 08:10:13.332 Received the following back message:
+rerun_script {
+  widget_states {
+  }
+}
+
+2026-04-21 08:10:13.332 Beginning script thread
+2026-04-21 08:10:13.332 Running script RerunData(widget_states=)
+2026-04-21 08:10:13.332 Disconnecting files for session with ID dcdd2e02-562a-472d-b9dc-98f2ff8beba3
+2026-04-21 08:10:13.332 Sessions still active: dict_keys([])
+2026-04-21 08:10:13.332 Files: 0; Sessions with files: 0
+2026-04-21 08:10:13.340 Cache key: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:10:13.341 Memory cache HIT: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:10:16.637 Removing orphaned files...
+2026-04-21 08:10:16.743 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py
+2026-04-21 08:10:16.743 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+      int_value: 1
+    }
+    widgets {
+      id: "$$WIDGET_ID-df0b627409052b1280b98c50be9ea192-None"
+      int_array_value {
+        data: 0
+        data: 1
+        data: 2
+      }
+    }
+    widgets {
+      id: "$$WIDGET_ID-70cf55e37ca4b3b532c58ef87249569e-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-f055c1004699ffae5bd0ed812561f936-None"
+      int_value: 0
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+}
+
+2026-04-21 08:10:16.743 Beginning script thread
+2026-04-21 08:10:16.743 Running script RerunData(widget_states=widgets {
+  id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+  int_value: 1
+}
+widgets {
+  id: "$$WIDGET_ID-df0b627409052b1280b98c50be9ea192-None"
+  int_array_value {
+    data: 0
+    data: 1
+    data: 2
+  }
+}
+widgets {
+  id: "$$WIDGET_ID-70cf55e37ca4b3b532c58ef87249569e-None"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-f055c1004699ffae5bd0ed812561f936-None"
+  int_value: 0
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815')
+2026-04-21 08:10:16.743 Disconnecting files for session with ID dcdd2e02-562a-472d-b9dc-98f2ff8beba3
+2026-04-21 08:10:16.743 Sessions still active: dict_keys([])
+2026-04-21 08:10:16.743 Files: 0; Sessions with files: 0
+2026-04-21 08:10:16.744 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2026-04-21 08:10:16.744 Removing orphaned files...
+2026-04-21 08:10:16.786 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2026-04-21 08:12:10.215 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmplemtadpk.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x177f46de0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x177f47650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='1ac12e4c5560dff5d32a98ef35d9d7c8', modification_time=1776751805.8140585, on_changed=<blinker.base.Signal object at 0x177f46ea0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x177f46f60>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x177f47080>)}
+2026-04-21 08:12:10.215 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x177f46de0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x177f47650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='1ac12e4c5560dff5d32a98ef35d9d7c8', modification_time=1776751805.8140585, on_changed=<blinker.base.Signal object at 0x177f46ea0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x177f46f60>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x177f47080>)}
+2026-04-21 08:12:10.215 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmplemtadpk.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x177f46de0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x177f47650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='1ac12e4c5560dff5d32a98ef35d9d7c8', modification_time=1776751805.8140585, on_changed=<blinker.base.Signal object at 0x177f46ea0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x177f46f60>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x177f47080>)}
+2026-04-21 08:12:10.215 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmplemtadpk; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:12:10.216 File/dir MD5 changed: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:12:10.216 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x177f46de0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x177f47650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='73f37d2b0bc7cac0c9a80ba2ccf1ad9a', modification_time=1776751929.965714, on_changed=<blinker.base.Signal object at 0x177f46ea0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x177f46f60>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x177f47080>)}
+2026-04-21 08:12:10.216 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmplemtadpk.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751805.8198125, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x177f45670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3aa910bf0>)}
+2026-04-21 08:12:10.318 File/dir MD5 did not change: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages
+2026-04-21 08:12:10.319 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmplemtadpk.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x177f45670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3aa910bf0>)}
+2026-04-21 08:12:10.319 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmplemtadpk; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:12:10.319 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x177f45670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3aa910bf0>)}
+2026-04-21 08:12:10.319 File/dir timestamp did not change: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages
+2026-04-21 08:12:10.319 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x177f45670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3aa910bf0>)}
+2026-04-21 08:12:10.319 File/dir timestamp did not change: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:12:10.319 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x177f46de0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x177f47650>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='73f37d2b0bc7cac0c9a80ba2ccf1ad9a', modification_time=1776751929.965714, on_changed=<blinker.base.Signal object at 0x177f46ea0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x177f46f60>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x177f47080>)}
+2026-04-21 08:12:10.319 File/dir timestamp did not change: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages
+2026-04-21 08:12:25.958 Shutting down (id=e977ad98-bea1-41d1-b2c1-fff789d5581e)
+2026-04-21 08:12:25.958 Disconnecting files for session with ID e977ad98-bea1-41d1-b2c1-fff789d5581e
+2026-04-21 08:12:25.958 Sessions still active: dict_keys([])
+2026-04-21 08:12:25.958 Files: 0; Sessions with files: 0
+2026-04-21 08:12:25.958 Removing orphaned files...
+2026-04-21 08:12:25.958 Runtime state: RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED -> RuntimeState.NO_SESSIONS_CONNECTED
+2026-04-21 08:12:26.119 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py
+2026-04-21 08:12:26.124 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py
+2026-04-21 08:12:26.124 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py
+2026-04-21 08:12:26.124 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:12:26.125 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py
+2026-04-21 08:12:26.125 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py
+2026-04-21 08:12:26.125 AppSession initialized (id=62effb16-3e10-4bf9-beac-6bb7d0dfdccd)
+2026-04-21 08:12:26.125 Created new session for client 4418773520. Session ID: 62effb16-3e10-4bf9-beac-6bb7d0dfdccd
+2026-04-21 08:12:26.125 Runtime state: RuntimeState.NO_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2026-04-21 08:12:26.125 Received the following back message:
+rerun_script {
+  widget_states {
+  }
+}
+
+2026-04-21 08:12:26.126 Beginning script thread
+2026-04-21 08:12:26.126 Running script RerunData(widget_states=)
+2026-04-21 08:12:26.126 Disconnecting files for session with ID 62effb16-3e10-4bf9-beac-6bb7d0dfdccd
+2026-04-21 08:12:26.126 Sessions still active: dict_keys([])
+2026-04-21 08:12:26.126 Files: 0; Sessions with files: 0
+2026-04-21 08:12:26.133 Cache key: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:12:26.134 Memory cache HIT: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:12:29.892 Removing orphaned files...
+2026-04-21 08:12:29.966 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py
+2026-04-21 08:12:29.967 Caching message (hash=014372d1a0547ef00cd29f625d1f0562)
+2026-04-21 08:12:29.967 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2026-04-21 08:12:30.259 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+      int_value: 2
+    }
+    widgets {
+      id: "$$WIDGET_ID-df0b627409052b1280b98c50be9ea192-None"
+      int_array_value {
+        data: 0
+        data: 1
+        data: 2
+      }
+    }
+    widgets {
+      id: "$$WIDGET_ID-70cf55e37ca4b3b532c58ef87249569e-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-f055c1004699ffae5bd0ed812561f936-None"
+      int_value: 0
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+}
+
+2026-04-21 08:12:30.260 Beginning script thread
+2026-04-21 08:12:30.260 Running script RerunData(widget_states=widgets {
+  id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+  int_value: 2
+}
+widgets {
+  id: "$$WIDGET_ID-df0b627409052b1280b98c50be9ea192-None"
+  int_array_value {
+    data: 0
+    data: 1
+    data: 2
+  }
+}
+widgets {
+  id: "$$WIDGET_ID-70cf55e37ca4b3b532c58ef87249569e-None"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-f055c1004699ffae5bd0ed812561f936-None"
+  int_value: 0
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815')
+2026-04-21 08:12:30.260 Disconnecting files for session with ID 62effb16-3e10-4bf9-beac-6bb7d0dfdccd
+2026-04-21 08:12:30.260 Sessions still active: dict_keys([])
+2026-04-21 08:12:30.260 Files: 0; Sessions with files: 0
+2026-04-21 08:12:30.264 Cache key: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:12:30.264 Cache key: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:12:30.264 Memory cache HIT: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:12:31.906 Removing orphaned files...
+2026-04-21 08:12:31.934 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2026-04-21 08:12:33.677 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+      int_value: 1
+    }
+    widgets {
+      id: "$$WIDGET_ID-f6eec4b05be36d48b99c18292a42aca1-ap_dep"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-7a591c5c3e50080065c02315d9317314-pays_dep"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-7011e2c4e3d29b60030533ff5f264c74-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-3d7e4d59d1694460592fc7f430818b1e-ap_arr"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-cac2693fe59905990f398d99fe68a354-pays_arr"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-1dbb74ba184b54a467233e855079bbce-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-dd11813832766ac812c260770325d9de-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-bcc46225070c67273a06e6822b400a6a-None"
+      double_array_value {
+        data: 10.0
+      }
+    }
+    widgets {
+      id: "$$WIDGET_ID-db300baba2dc993e7907fac31de5fcc9-None"
+      int_value: 1200
+    }
+    widgets {
+      id: "$$WIDGET_ID-1cc0963cb32e941622c9c8593fc01670-None"
+      int_value: 150
+    }
+    widgets {
+      id: "$$WIDGET_ID-fc1ea7e0f6abe0548dc91007b25dfbf2-None"
+      int_value: 20
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+}
+
+2026-04-21 08:12:33.678 Beginning script thread
+2026-04-21 08:12:33.678 Running script RerunData(widget_states=widgets {
+  id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+  int_value: 1
+}
+widgets {
+  id: "$$WIDGET_ID-f6eec4b05be36d48b99c18292a42aca1-ap_dep"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-7a591c5c3e50080065c02315d9317314-pays_dep"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-7011e2c4e3d29b60030533ff5f264c74-None"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-3d7e4d59d1694460592fc7f430818b1e-ap_arr"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-cac2693fe59905990f398d99fe68a354-pays_arr"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-1dbb74ba184b54a467233e855079bbce-None"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-dd11813832766ac812c260770325d9de-None"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-bcc46225070c67273a06e6822b400a6a-None"
+  double_array_value {
+    data: 10.0
+  }
+}
+widgets {
+  id: "$$WIDGET_ID-db300baba2dc993e7907fac31de5fcc9-None"
+  int_value: 1200
+}
+widgets {
+  id: "$$WIDGET_ID-1cc0963cb32e941622c9c8593fc01670-None"
+  int_value: 150
+}
+widgets {
+  id: "$$WIDGET_ID-fc1ea7e0f6abe0548dc91007b25dfbf2-None"
+  int_value: 20
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815')
+2026-04-21 08:12:33.679 Disconnecting files for session with ID 62effb16-3e10-4bf9-beac-6bb7d0dfdccd
+2026-04-21 08:12:33.679 Sessions still active: dict_keys([])
+2026-04-21 08:12:33.679 Files: 0; Sessions with files: 0
+2026-04-21 08:12:33.683 Removing orphaned files...
+2026-04-21 08:12:33.747 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2026-04-21 08:12:33.747 Removing expired entry [session=13514255984, hash=014372d1a0547ef00cd29f625d1f0562, age=3]
+2026-04-21 08:19:43.246 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/tmp2k3oiw2g.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x3258329c0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x107660950>)}
+2026-04-21 08:19:43.248 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x3258329c0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x107660950>)}
+2026-04-21 08:19:43.248 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/tmp2k3oiw2g.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='07cc28c0dc2a9dcd5923eefce8b1dd0f', modification_time=1776724297.1800134, on_changed=<blinker.base.Signal object at 0x3258329c0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x107660950>)}
+2026-04-21 08:19:43.248 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/tmp2k3oiw2g; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py
+2026-04-21 08:19:43.249 File/dir MD5 changed: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py
+2026-04-21 08:19:43.251 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x3258329c0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x107660950>)}
+2026-04-21 08:19:43.252 File/dir timestamp did not change: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py
+2026-04-21 08:19:43.252 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x3258329c0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x107660950>)}
+2026-04-21 08:19:50.250 Shutting down (id=dcdd2e02-562a-472d-b9dc-98f2ff8beba3)
+2026-04-21 08:19:50.251 Disconnecting files for session with ID dcdd2e02-562a-472d-b9dc-98f2ff8beba3
+2026-04-21 08:19:50.251 Sessions still active: dict_keys([])
+2026-04-21 08:19:50.251 Files: 0; Sessions with files: 0
+2026-04-21 08:19:50.251 Removing orphaned files...
+2026-04-21 08:19:50.251 Runtime state: RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED -> RuntimeState.NO_SESSIONS_CONNECTED
+2026-04-21 08:19:50.416 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py
+2026-04-21 08:19:50.421 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py
+2026-04-21 08:19:50.421 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py
+2026-04-21 08:19:50.422 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:19:50.422 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py
+2026-04-21 08:19:50.423 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py
+2026-04-21 08:19:50.423 AppSession initialized (id=e49430ad-67b3-4ca1-80bc-9c5a60ec2a58)
+2026-04-21 08:19:50.423 Created new session for client 6287715712. Session ID: e49430ad-67b3-4ca1-80bc-9c5a60ec2a58
+2026-04-21 08:19:50.423 Runtime state: RuntimeState.NO_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2026-04-21 08:19:50.423 Received the following back message:
+rerun_script {
+  widget_states {
+  }
+}
+
+2026-04-21 08:19:50.424 Beginning script thread
+2026-04-21 08:19:50.424 Running script RerunData(widget_states=)
+2026-04-21 08:19:50.424 Disconnecting files for session with ID e49430ad-67b3-4ca1-80bc-9c5a60ec2a58
+2026-04-21 08:19:50.424 Sessions still active: dict_keys([])
+2026-04-21 08:19:50.424 Files: 0; Sessions with files: 0
+2026-04-21 08:19:50.435 Cache key: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:19:50.435 Memory cache HIT: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:19:54.452 Removing orphaned files...
+2026-04-21 08:19:54.555 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py
+2026-04-21 08:19:54.556 Caching message (hash=014372d1a0547ef00cd29f625d1f0562)
+2026-04-21 08:19:54.556 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2026-04-21 08:19:54.892 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+      int_value: 1
+    }
+    widgets {
+      id: "$$WIDGET_ID-df0b627409052b1280b98c50be9ea192-None"
+      int_array_value {
+        data: 0
+        data: 1
+        data: 2
+      }
+    }
+    widgets {
+      id: "$$WIDGET_ID-70cf55e37ca4b3b532c58ef87249569e-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-f055c1004699ffae5bd0ed812561f936-None"
+      int_value: 0
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+}
+
+2026-04-21 08:19:54.893 Beginning script thread
+2026-04-21 08:19:54.893 Running script RerunData(widget_states=widgets {
+  id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+  int_value: 1
+}
+widgets {
+  id: "$$WIDGET_ID-df0b627409052b1280b98c50be9ea192-None"
+  int_array_value {
+    data: 0
+    data: 1
+    data: 2
+  }
+}
+widgets {
+  id: "$$WIDGET_ID-70cf55e37ca4b3b532c58ef87249569e-None"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-f055c1004699ffae5bd0ed812561f936-None"
+  int_value: 0
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815')
+2026-04-21 08:19:54.894 Disconnecting files for session with ID e49430ad-67b3-4ca1-80bc-9c5a60ec2a58
+2026-04-21 08:19:54.894 Sessions still active: dict_keys([])
+2026-04-21 08:19:54.894 Files: 0; Sessions with files: 0
+2026-04-21 08:19:54.916 Removing orphaned files...
+2026-04-21 08:19:54.957 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/eda.cpython-312.pyc.13601468560.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x176c6eae0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x176c6eb40>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='73f37d2b0bc7cac0c9a80ba2ccf1ad9a', modification_time=1776751929.965714, on_changed=<blinker.base.Signal object at 0x176c6e960>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x176c6e8d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x176c6e840>)}
+2026-04-21 08:19:54.957 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x176c6eae0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x176c6eb40>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='73f37d2b0bc7cac0c9a80ba2ccf1ad9a', modification_time=1776751929.965714, on_changed=<blinker.base.Signal object at 0x176c6e960>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x176c6e8d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x176c6e840>)}
+2026-04-21 08:19:54.957 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/eda.cpython-312.pyc.13601468560.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x176c6eae0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x176c6eb40>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='73f37d2b0bc7cac0c9a80ba2ccf1ad9a', modification_time=1776751929.965714, on_changed=<blinker.base.Signal object at 0x176c6e960>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x176c6e8d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x176c6e840>)}
+2026-04-21 08:19:54.957 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/eda.cpython-312.pyc.13601468560; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/eda.cpython-312.pyc
+2026-04-21 08:19:54.957 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/eda.cpython-312.pyc.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x176c6eae0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x176c6eb40>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='73f37d2b0bc7cac0c9a80ba2ccf1ad9a', modification_time=1776751929.965714, on_changed=<blinker.base.Signal object at 0x176c6e960>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x176c6e8d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x176c6e840>)}
+2026-04-21 08:19:54.957 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x176c6eae0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x176c6eb40>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='73f37d2b0bc7cac0c9a80ba2ccf1ad9a', modification_time=1776751929.965714, on_changed=<blinker.base.Signal object at 0x176c6e960>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x176c6e8d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x176c6e840>)}
+2026-04-21 08:19:54.958 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/eda.cpython-312.pyc.13601468560.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x176c6ed50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3258f3ef0>)}
+2026-04-21 08:19:54.958 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x176c6ed50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3258f3ef0>)}
+2026-04-21 08:19:54.958 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/eda.cpython-312.pyc.13601468560.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x176c6ed50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3258f3ef0>)}
+2026-04-21 08:19:54.958 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/eda.cpython-312.pyc.13601468560; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/eda.cpython-312.pyc
+2026-04-21 08:19:54.958 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__/eda.cpython-312.pyc.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x176c6ed50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3258f3ef0>)}
+2026-04-21 08:19:54.958 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x176c6ed50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3258f3ef0>)}
+2026-04-21 08:19:54.958 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/data_utils.cpython-312.pyc.13601471152.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x176c6ed50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3258f3ef0>)}
+2026-04-21 08:19:54.959 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x176c6ed50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3258f3ef0>)}
+2026-04-21 08:19:54.959 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/data_utils.cpython-312.pyc.13601471152.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x176c6ed50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3258f3ef0>)}
+2026-04-21 08:19:54.959 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/data_utils.cpython-312.pyc.13601471152; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/data_utils.cpython-312.pyc
+2026-04-21 08:19:54.959 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__/data_utils.cpython-312.pyc.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x176c6ed50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3258f3ef0>)}
+2026-04-21 08:19:54.959 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x176c6ed50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3258f3ef0>)}
+2026-04-21 08:19:54.959 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__pycache__.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x176c6ed50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3258f3ef0>)}
+2026-04-21 08:19:55.000 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py
+2026-04-21 08:19:55.001 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/__init__.py
+2026-04-21 08:19:55.002 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/utils/data_utils.py
+2026-04-21 08:19:55.013 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2026-04-21 08:20:45.196 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmpy6b57u9o.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776751929.970259, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x176c6ed50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3258f3ef0>)}
+2026-04-21 08:20:45.302 File/dir MD5 did not change: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages
+2026-04-21 08:20:45.302 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmpy6b57u9o.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776752445.177889, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x176c6ed50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3258f3ef0>)}
+2026-04-21 08:20:45.302 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmpy6b57u9o; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:20:45.303 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776752445.177889, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x176c6ed50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3258f3ef0>)}
+2026-04-21 08:20:45.303 File/dir timestamp did not change: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages
+2026-04-21 08:20:45.303 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmpy6b57u9o.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x176c6eae0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x176c6eb40>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='73f37d2b0bc7cac0c9a80ba2ccf1ad9a', modification_time=1776751929.965714, on_changed=<blinker.base.Signal object at 0x176c6e960>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x176c6e8d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x176c6e840>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715886.7435596, on_changed=<blinker.base.Signal object at 0x3258f2630>)}
+2026-04-21 08:20:45.303 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x176c6eae0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x176c6eb40>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='73f37d2b0bc7cac0c9a80ba2ccf1ad9a', modification_time=1776751929.965714, on_changed=<blinker.base.Signal object at 0x176c6e960>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x176c6e8d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x176c6e840>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715886.7435596, on_changed=<blinker.base.Signal object at 0x3258f2630>)}
+2026-04-21 08:20:45.303 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmpy6b57u9o.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x176c6eae0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x176c6eb40>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='73f37d2b0bc7cac0c9a80ba2ccf1ad9a', modification_time=1776751929.965714, on_changed=<blinker.base.Signal object at 0x176c6e960>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x176c6e8d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x176c6e840>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715886.7435596, on_changed=<blinker.base.Signal object at 0x3258f2630>)}
+2026-04-21 08:20:45.303 Move event: src /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/tmpy6b57u9o; dest /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:20:45.304 File/dir MD5 changed: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:20:45.304 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x176c6eae0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x176c6eb40>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='b6ec75b3e343194e69bbc85d6fb09939', modification_time=1776752445.1730654, on_changed=<blinker.base.Signal object at 0x176c6e960>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x176c6e8d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x176c6e840>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715886.7435596, on_changed=<blinker.base.Signal object at 0x3258f2630>)}
+2026-04-21 08:20:45.305 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages': WatchedPath(md5='590eae82c9be448f3932ea40856584d7', modification_time=1776752445.177889, glob_pattern='*.py', allow_nonexistent=True, on_changed=<blinker.base.Signal object at 0x106d55670>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py': WatchedPath(md5='9f6f7a1a95a8ca33be0443ec1a2d2a3f', modification_time=1776752383.2234533, on_changed=<blinker.base.Signal object at 0x176c6ed50>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py': WatchedPath(md5='658ccc6f4e1ebf510aab763450490ad5', modification_time=1776716237.5569327, on_changed=<blinker.base.Signal object at 0x3258f3ef0>)}
+2026-04-21 08:20:45.305 File/dir timestamp did not change: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:20:45.305 File/dir timestamp did not change: /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages
+2026-04-21 08:20:45.305 Ignoring changed path /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages.
+Watched_paths: {'/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py': WatchedPath(md5='9e1e05d041221a9b5990f5870bdca90b', modification_time=1776716514.225392, on_changed=<blinker.base.Signal object at 0x176c6eae0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py': WatchedPath(md5='98b979658b5e7c04899236e5da4f19b4', modification_time=1776716418.4112961, on_changed=<blinker.base.Signal object at 0x176c6eb40>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py': WatchedPath(md5='b6ec75b3e343194e69bbc85d6fb09939', modification_time=1776752445.1730654, on_changed=<blinker.base.Signal object at 0x176c6e960>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py': WatchedPath(md5='f115726a24679b7f98b9847cdd95443e', modification_time=1776716460.6250467, on_changed=<blinker.base.Signal object at 0x176c6e8d0>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py': WatchedPath(md5='6499cd4596ea6d6ede6bc2f0da1cded3', modification_time=1776716482.4450922, on_changed=<blinker.base.Signal object at 0x176c6e840>), '/Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/__init__.py': WatchedPath(md5='d41d8cd98f00b204e9800998ecf8427e', modification_time=1776715886.7435596, on_changed=<blinker.base.Signal object at 0x3258f2630>)}
+2026-04-21 08:20:52.223 Runtime state: RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED -> RuntimeState.NO_SESSIONS_CONNECTED
+2026-04-21 08:20:52.365 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py
+2026-04-21 08:20:52.369 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py
+2026-04-21 08:20:52.370 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py
+2026-04-21 08:20:52.370 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:20:52.370 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py
+2026-04-21 08:20:52.370 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py
+2026-04-21 08:20:52.370 AppSession initialized (id=31c842fb-c18f-4b95-b15b-fd7b8e24312a)
+2026-04-21 08:20:52.370 Created new session for client 13515039536. Session ID: 31c842fb-c18f-4b95-b15b-fd7b8e24312a
+2026-04-21 08:20:52.370 Runtime state: RuntimeState.NO_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2026-04-21 08:20:52.371 Received the following back message:
+rerun_script {
+  widget_states {
+  }
+}
+
+2026-04-21 08:20:52.371 Beginning script thread
+2026-04-21 08:20:52.371 Running script RerunData(widget_states=)
+2026-04-21 08:20:52.371 Disconnecting files for session with ID 31c842fb-c18f-4b95-b15b-fd7b8e24312a
+2026-04-21 08:20:52.371 Sessions still active: dict_keys([])
+2026-04-21 08:20:52.371 Files: 0; Sessions with files: 0
+2026-04-21 08:20:52.378 Cache key: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:20:52.378 Memory cache HIT: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:20:55.778 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+      int_value: 1
+    }
+    widgets {
+      id: "$$WIDGET_ID-df0b627409052b1280b98c50be9ea192-None"
+      int_array_value {
+        data: 0
+        data: 1
+        data: 2
+      }
+    }
+    widgets {
+      id: "$$WIDGET_ID-70cf55e37ca4b3b532c58ef87249569e-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-f055c1004699ffae5bd0ed812561f936-None"
+      int_value: 0
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+}
+
+2026-04-21 08:20:55.778 Beginning script thread
+2026-04-21 08:20:55.778 Running script RerunData(widget_states=widgets {
+  id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+  int_value: 1
+}
+widgets {
+  id: "$$WIDGET_ID-df0b627409052b1280b98c50be9ea192-None"
+  int_array_value {
+    data: 0
+    data: 1
+    data: 2
+  }
+}
+widgets {
+  id: "$$WIDGET_ID-70cf55e37ca4b3b532c58ef87249569e-None"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-f055c1004699ffae5bd0ed812561f936-None"
+  int_value: 0
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815')
+2026-04-21 08:20:55.778 Disconnecting files for session with ID 31c842fb-c18f-4b95-b15b-fd7b8e24312a
+2026-04-21 08:20:55.778 Sessions still active: dict_keys([])
+2026-04-21 08:20:55.778 Files: 0; Sessions with files: 0
+2026-04-21 08:20:55.781 Removing orphaned files...
+2026-04-21 08:20:55.908 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py
+2026-04-21 08:20:55.909 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2026-04-21 08:20:56.176 Removing orphaned files...
+2026-04-21 08:20:56.205 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.ENQUEUE_FORWARD_MSG
+2026-04-21 08:20:56.205 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2026-04-21 08:20:56.205 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.SHUTDOWN
+2026-04-21 08:21:21.210 Runtime state: RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED -> RuntimeState.NO_SESSIONS_CONNECTED
+2026-04-21 08:21:21.369 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/app.py
+2026-04-21 08:21:21.374 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/chatbot.py
+2026-04-21 08:21:21.374 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/dashboard.py
+2026-04-21 08:21:21.375 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/eda.py
+2026-04-21 08:21:21.375 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prediction.py
+2026-04-21 08:21:21.375 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/pages/prioritisation.py
+2026-04-21 08:21:21.375 AppSession initialized (id=090eb221-db56-4452-91eb-dcaaa5dceba1)
+2026-04-21 08:21:21.375 Created new session for client 13510242336. Session ID: 090eb221-db56-4452-91eb-dcaaa5dceba1
+2026-04-21 08:21:21.375 Runtime state: RuntimeState.NO_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2026-04-21 08:21:21.375 Received the following back message:
+rerun_script {
+  widget_states {
+  }
+}
+
+2026-04-21 08:21:21.376 Beginning script thread
+2026-04-21 08:21:21.376 Running script RerunData(widget_states=)
+2026-04-21 08:21:21.376 Disconnecting files for session with ID 090eb221-db56-4452-91eb-dcaaa5dceba1
+2026-04-21 08:21:21.376 Sessions still active: dict_keys([])
+2026-04-21 08:21:21.376 Files: 0; Sessions with files: 0
+2026-04-21 08:21:21.380 Cache key: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:21:21.380 Memory cache HIT: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:21:25.197 Removing orphaned files...
+2026-04-21 08:21:25.272 Watcher created for /Users/konearounaromeo/Downloads/Projet_crm/imsd_app/config.py
+2026-04-21 08:21:25.273 Caching message (hash=014372d1a0547ef00cd29f625d1f0562)
+2026-04-21 08:21:25.273 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2026-04-21 08:21:26.905 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+      int_value: 2
+    }
+    widgets {
+      id: "$$WIDGET_ID-df0b627409052b1280b98c50be9ea192-None"
+      int_array_value {
+        data: 0
+        data: 1
+        data: 2
+      }
+    }
+    widgets {
+      id: "$$WIDGET_ID-70cf55e37ca4b3b532c58ef87249569e-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-f055c1004699ffae5bd0ed812561f936-None"
+      int_value: 0
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+}
+
+2026-04-21 08:21:26.906 Beginning script thread
+2026-04-21 08:21:26.906 Running script RerunData(widget_states=widgets {
+  id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+  int_value: 2
+}
+widgets {
+  id: "$$WIDGET_ID-df0b627409052b1280b98c50be9ea192-None"
+  int_array_value {
+    data: 0
+    data: 1
+    data: 2
+  }
+}
+widgets {
+  id: "$$WIDGET_ID-70cf55e37ca4b3b532c58ef87249569e-None"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-f055c1004699ffae5bd0ed812561f936-None"
+  int_value: 0
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815')
+2026-04-21 08:21:26.906 Disconnecting files for session with ID 090eb221-db56-4452-91eb-dcaaa5dceba1
+2026-04-21 08:21:26.906 Sessions still active: dict_keys([])
+2026-04-21 08:21:26.907 Files: 0; Sessions with files: 0
+2026-04-21 08:21:26.910 Cache key: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:21:26.911 Cache key: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:21:26.911 Memory cache HIT: d41d8cd98f00b204e9800998ecf8427e
+2026-04-21 08:21:28.786 Removing orphaned files...
+2026-04-21 08:21:28.816 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2026-04-21 08:21:30.552 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+      int_value: 1
+    }
+    widgets {
+      id: "$$WIDGET_ID-f6eec4b05be36d48b99c18292a42aca1-ap_dep"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-7a591c5c3e50080065c02315d9317314-pays_dep"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-7011e2c4e3d29b60030533ff5f264c74-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-3d7e4d59d1694460592fc7f430818b1e-ap_arr"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-cac2693fe59905990f398d99fe68a354-pays_arr"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-1dbb74ba184b54a467233e855079bbce-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-dd11813832766ac812c260770325d9de-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$WIDGET_ID-bcc46225070c67273a06e6822b400a6a-None"
+      double_array_value {
+        data: 10.0
+      }
+    }
+    widgets {
+      id: "$$WIDGET_ID-db300baba2dc993e7907fac31de5fcc9-None"
+      int_value: 1200
+    }
+    widgets {
+      id: "$$WIDGET_ID-1cc0963cb32e941622c9c8593fc01670-None"
+      int_value: 150
+    }
+    widgets {
+      id: "$$WIDGET_ID-fc1ea7e0f6abe0548dc91007b25dfbf2-None"
+      int_value: 20
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+}
+
+2026-04-21 08:21:30.552 Beginning script thread
+2026-04-21 08:21:30.552 Running script RerunData(widget_states=widgets {
+  id: "$$WIDGET_ID-babad3cbb77d94654ffb17409da4fe94-None"
+  int_value: 1
+}
+widgets {
+  id: "$$WIDGET_ID-f6eec4b05be36d48b99c18292a42aca1-ap_dep"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-7a591c5c3e50080065c02315d9317314-pays_dep"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-7011e2c4e3d29b60030533ff5f264c74-None"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-3d7e4d59d1694460592fc7f430818b1e-ap_arr"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-cac2693fe59905990f398d99fe68a354-pays_arr"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-1dbb74ba184b54a467233e855079bbce-None"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-dd11813832766ac812c260770325d9de-None"
+  int_value: 0
+}
+widgets {
+  id: "$$WIDGET_ID-bcc46225070c67273a06e6822b400a6a-None"
+  double_array_value {
+    data: 10.0
+  }
+}
+widgets {
+  id: "$$WIDGET_ID-db300baba2dc993e7907fac31de5fcc9-None"
+  int_value: 1200
+}
+widgets {
+  id: "$$WIDGET_ID-1cc0963cb32e941622c9c8593fc01670-None"
+  int_value: 150
+}
+widgets {
+  id: "$$WIDGET_ID-fc1ea7e0f6abe0548dc91007b25dfbf2-None"
+  int_value: 20
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815')
+2026-04-21 08:21:30.553 Disconnecting files for session with ID 090eb221-db56-4452-91eb-dcaaa5dceba1
+2026-04-21 08:21:30.553 Sessions still active: dict_keys([])
+2026-04-21 08:21:30.553 Files: 0; Sessions with files: 0
+2026-04-21 08:21:30.557 Removing orphaned files...
+2026-04-21 08:21:30.620 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2026-04-21 08:21:30.620 Removing expired entry [session=13510239984, hash=014372d1a0547ef00cd29f625d1f0562, age=3]
+  Stopping...
+2026-04-21 08:23:47.545 Runtime stopping...
+2026-04-21 08:23:47.545 Runtime state: RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED -> RuntimeState.STOPPING
+2026-04-21 08:23:47.546 Shutting down (id=62effb16-3e10-4bf9-beac-6bb7d0dfdccd)
+2026-04-21 08:23:47.546 Disconnecting files for session with ID 62effb16-3e10-4bf9-beac-6bb7d0dfdccd
+2026-04-21 08:23:47.546 Sessions still active: dict_keys([])
+2026-04-21 08:23:47.546 Files: 0; Sessions with files: 0
+2026-04-21 08:23:47.546 Removing orphaned files...
+2026-04-21 08:23:47.547 Shutting down (id=e49430ad-67b3-4ca1-80bc-9c5a60ec2a58)
+2026-04-21 08:23:47.547 Disconnecting files for session with ID e49430ad-67b3-4ca1-80bc-9c5a60ec2a58
+2026-04-21 08:23:47.547 Sessions still active: dict_keys([])
+2026-04-21 08:23:47.547 Files: 0; Sessions with files: 0
+2026-04-21 08:23:47.547 Removing orphaned files...
+2026-04-21 08:23:47.547 Shutting down (id=31c842fb-c18f-4b95-b15b-fd7b8e24312a)
+2026-04-21 08:23:47.547 Disconnecting files for session with ID 31c842fb-c18f-4b95-b15b-fd7b8e24312a
+2026-04-21 08:23:47.547 Sessions still active: dict_keys([])
+2026-04-21 08:23:47.547 Files: 0; Sessions with files: 0
+2026-04-21 08:23:47.547 Removing orphaned files...
+2026-04-21 08:23:47.547 Shutting down (id=090eb221-db56-4452-91eb-dcaaa5dceba1)
+2026-04-21 08:23:47.547 Disconnecting files for session with ID 090eb221-db56-4452-91eb-dcaaa5dceba1
+2026-04-21 08:23:47.547 Sessions still active: dict_keys([])
+2026-04-21 08:23:47.547 Files: 0; Sessions with files: 0
+2026-04-21 08:23:47.547 Removing orphaned files...
+2026-04-21 08:23:47.550 Runtime state: RuntimeState.STOPPING -> RuntimeState.STOPPED
